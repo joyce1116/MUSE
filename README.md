@@ -30,7 +30,8 @@ python -m pip install --no-deps -r requirements.txt
 
 2. Data preparation
 
-Download the preprocessed datasets from [Google Drive](https://drive.google.com/file/d/1vgpOmAygokoUt235piWKUjfwao6KwLv7/view?usp=drive_link) or [Baidu Drive](https://pan.baidu.com/s/1ycq7ufOD2eFOjDkjr0BfSg?pwd=bpry), and extract them under `./dataset`. The CSV files should be located in `./dataset/forecasting`.
+
+The preprocessed datasets used in our experiments are provided by the official [TFB benchmark repository](https://github.com/decisionintelligence/TFB). Download them through the TFB-provided [Google Drive](https://drive.google.com/file/d/1vgpOmAygokoUt235piWKUjfwao6KwLv7/view?usp=drive_link) or [Baidu Drive](https://pan.baidu.com/s/1ycq7ufOD2eFOjDkjr0BfSg?pwd=bpry) links, and extract them under `./dataset`. The CSV files should be located in `./dataset/forecasting`.
 
 The pretrained MAE checkpoint is not included in this repository. Download the exact [`mae_visualize_vit_base.pth`](https://dl.fbaipublicfiles.com/mae/visualize/mae_visualize_vit_base.pth) checkpoint and place it at `./pretrained_weights/mae/mae_visualize_vit_base.pth`.
 
